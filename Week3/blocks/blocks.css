@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    width: 800px;
+}
+
+#top{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+#middle{
+    display: flex;
+    background-color: coral;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+#bottom{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.octocat{
+    height: 200px;
+}
